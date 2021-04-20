@@ -281,6 +281,7 @@ h1 {
 /* ----------reset button-------- */
 
 #button {
+	user-select: none;
 	position: relative;
 	height: fit-content;
 	cursor: pointer;
