@@ -48,7 +48,7 @@ html {
 }
 .wrapper {
 	position: relative;
-	width: 810px;
+	width: 650px;
 }
 
 .chest {
@@ -64,6 +64,8 @@ html {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	width: 640px;
+	height: auto;
 	transform: translate(-50%, -50%);
 	z-index: -1;
 }
@@ -145,8 +147,8 @@ html {
 	align-items: center;
 	border: 1px solid black;
 	color: black;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	position: relative;
 }
 
@@ -255,18 +257,18 @@ h1 {
 
 #tree {
 	position: absolute;
-	top: -120px;
+	top: -100px;
 	transform: rotate(10deg);
-	right: -130px;
+	right: -100px;
 	z-index: 1;
 	pointer-events: none;
 }
 
 #tree2 {
 	position: absolute;
-	top: -120px;
+	top: -100px;
 	transform: rotateZ(-10deg) rotateY(180deg);
-	left: -130px;
+	left: -100px;
 	z-index: 1;
 	pointer-events: none;
 }
