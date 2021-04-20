@@ -55,7 +55,7 @@ function renderSquares() {
 	let squareHTML = "";
 	for (let i = 1; i < 33; i++) {
 		if (i === treasure) {
-			squareHTML += `<div class="square" id="square${i}" onclick="clickSquare(${i})"><span class="num">${i}</span><img src="images/chest.png" class="chest" width=100 id="chest${i}" /></div>`;
+			squareHTML += `<div class="square" id="square${i}" onclick="clickSquare(${i})"><span class="num">${i}</span><img src="images/chest.png" class="chest" width=80 id="chest${i}" /></div>`;
 		} else {
 			squareHTML += `<div class="square" id="square${i}" onclick="clickSquare(${i})"><span class="num">${i}</span></div>`;
 		}
