@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Tìm kho báu</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="animation"></div>
+		<div class="game">
+			<div class="title-div">
+				<div class="title">TÌM KHO BÁU</div>
+				<div class="title-shadow">TÌM KHO BÁU</div>
+				<img width="110" src="images/treasure.png" />
+			</div>
+			<p>Số lần click còn lại: <span id="clicks">3</span></p>
+			<div class="wrapper">
+				<img id="tree" src="images/tree.png" />
+				<img id="tree2" src="images/tree.png" />
+				<img id="map" src="images/map.jpg" />
+				<div id="squares"></div>
+			</div>
+			<div class="result-wrapper">
+				<div id="result">Hehe, chọn chỗ để đào kho báu đi nào!</div>
+			</div>
+			<div onclick="reset()" id="button">
+				<img src="images/button.png" width="150" />
+				<div>RESET</div>
+			</div>
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>
