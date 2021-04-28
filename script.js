@@ -1,6 +1,6 @@
 let squares = document.getElementById("squares");
 let animation = document.getElementById("animation");
-let clickHTML = document.getElementById("clicks").innerHTML;
+let clickHTML = document.getElementById("clicks");
 let resultHTML = document.getElementById("result");
 let treasure = Math.floor(Math.random() * 32) + 1;
 let clicks = 3;
